@@ -1,0 +1,5 @@
+{
+  "!(.yarn/**)*.{js,ts,vue}": [
+    "eslint --fix"
+  ]
+}
