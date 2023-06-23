@@ -1,0 +1,23 @@
+{
+  "name": "monorepo-example",
+  "private": true,
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "lerna:major": "lerna version major",
+    "lerna:minor": "lerna version minor",
+    "lerna:patch": "lerna version patch",
+    "lerna:premajor": "lerna version premajor",
+    "lerna:preminor": "lerna version preminor",
+    "lerna:prepatch": "lerna version prepatch",
+    "vite-project:dev": "nx dev vite-project",
+    "nx:graph": "nx graph"
+  },
+  "devDependencies": {
+    "lerna": "^6.6.2",
+    "nx": "^16.3.1",
+    "typescript": "^5.0.2"
+  }
+}
