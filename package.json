@@ -6,18 +6,28 @@
   ],
   "packageManager": "yarn@3.6.0",
   "scripts": {
+    "commitlint": "commitlint",
     "lerna:major": "lerna version major",
     "lerna:minor": "lerna version minor",
     "lerna:patch": "lerna version patch",
     "lerna:premajor": "lerna version premajor",
     "lerna:preminor": "lerna version preminor",
     "lerna:prepatch": "lerna version prepatch",
+    "lint-staged": "lint-staged",
     "vite-project:dev": "nx dev vite-project",
     "nx:graph": "nx graph"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
     "lerna": "^6.6.2",
+    "lint-staged": "^13.2.2",
     "nx": "^16.3.1",
+    "prettier": "^2.8.8",
     "typescript": "^5.0.2"
   }
 }
