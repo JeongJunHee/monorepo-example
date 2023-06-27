@@ -4,7 +4,6 @@
   "workspaces": [
     "packages/**/*"
   ],
-  "packageManager": "yarn@3.6.0",
   "scripts": {
     "commitlint": "commitlint",
     "lerna:major": "lerna version major",
@@ -14,8 +13,8 @@
     "lerna:preminor": "lerna version preminor",
     "lerna:prepatch": "lerna version prepatch",
     "lint-staged": "lint-staged",
-    "vite-project:dev": "nx dev vite-project",
-    "nx:graph": "nx graph"
+    "nx:graph": "nx graph",
+    "vite-project:dev": "nx dev vite-project"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
@@ -29,5 +28,6 @@
     "nx": "^16.3.1",
     "prettier": "^2.8.8",
     "typescript": "^5.0.2"
-  }
+  },
+  "packageManager": "yarn@3.6.0"
 }
