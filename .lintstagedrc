@@ -1,5 +1,8 @@
 {
   "!(.yarn/**)*.{js,ts,vue}": [
     "eslint --fix"
+  ],
+  "package.json": [
+    "yarn dlx sort-package-json"
   ]
 }
