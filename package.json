@@ -6,12 +6,7 @@
   ],
   "scripts": {
     "commitlint": "commitlint",
-    "lerna:major": "lerna version major",
-    "lerna:minor": "lerna version minor",
-    "lerna:patch": "lerna version patch",
-    "lerna:premajor": "lerna version premajor",
-    "lerna:preminor": "lerna version preminor",
-    "lerna:prepatch": "lerna version prepatch",
+    "lerna:version": "lerna version",
     "lint-staged": "lint-staged",
     "nx:graph": "nx graph",
     "vite-project:dev": "nx dev vite-project"
